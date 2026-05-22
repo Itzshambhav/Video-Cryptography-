@@ -1,2 +1,3 @@
-# Video-Cryptography-
-Full-stack video cryptography application using Java and Spring Boot for secure video encryption/decryption, integrated with REST APIs, Docker, GitHub Actions CI/CD, and automated testing.
+# Video Cryptography
+
+![Build and Test](https://github.com/Spectre114/Video-Cryptography/actions/workflows/build-and-test.yml/badge.svg)
