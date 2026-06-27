@@ -50,20 +50,34 @@ Secure video encryption and decryption system built using Java, Spring Boot, Doc
 
 ```bash
 Video-Cryptography/
-│── src/
+│
+├── .github/
+├── .mvn/
+├── src/
 │   ├── main/
 │   │   ├── java/
 │   │   ├── resources/
+│   │   ├── static/
 │   │   └── templates/
-│   ├── test/
+│   └── test/
 │
-│── encrypted_frames/
-│── decrypted_frames/
-│── input_vid.mp4
-│── Dockerfile
-│── pom.xml
-│── README.md
-│── .gitignore
+├── screenshots/             
+│   ├── home-page.png
+│   ├── upload-video.png
+│   └── encryption-decryption-result.png
+│
+├── decryptedVideo.mp4
+├── encryptedVideo.mp4          (if present)
+├── inputVideo.mp4              ( sample video)
+│
+├── .dockerignore
+├── .gitattributes
+├── .gitignore
+├── Dockerfile
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── README.md
 ```
 
 ---
@@ -161,6 +175,31 @@ Testing includes:
 - Batch Processing Tests
 
 ---
+
+
+# 📸 Application Screenshots
+
+## 🏠 Home Page
+
+The main interface where users can upload a video and start the encryption/decryption process.
+
+![Home Page](screenshots/home-page.png)
+
+---
+
+## 📤 Video Upload
+
+The uploaded video is displayed successfully before encryption.
+
+![Upload Video](screenshots/upload-video.png)
+
+---
+
+## 🔐 Encryption & 🔓 Decryption Results
+
+The system encrypts the uploaded video using AES and then successfully decrypts it to recover the original video.
+
+![Encryption and Decryption](screenshots/encryption-decryption-result.png)
 
 # 📸 Applications
 
